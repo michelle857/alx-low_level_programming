@@ -1,22 +1,17 @@
 #include <stdio.h>
 
 /**
- * main - entry point
- *
- * Description: print all single decimal numbers starting from 0
- *
- * Return: returns 0
+ *main-Program entry point.
+ *Return:0-no error,non-zero value-if error.
  */
-
 int main(void)
 {
-	int x;
+	char i;
 
-	do {
-		printf("%d", x);
-		x++;
-	} while (x <= 9);
+	for (i = '0'; i <= '9'; i++)
+	{
+		putchar(i);
+	}
 	putchar('\n');
 	return (0);
 }
-© 2022 GitH
